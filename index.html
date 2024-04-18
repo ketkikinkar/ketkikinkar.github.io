@@ -4,59 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ketki Kinkar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="path_to_your_photo.jpg" alt="Ketki Kinkar">
-        <h1>Ketki Kinkar</h1>
-        <p>Email: <a href="mailto:ketki.kinkar2000@gmail.com">ketki.kinkar2000@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/ketki-kinkar-116869185">ketkikinkar</a></p>
-        <p>GitHub: <a href="https://github.com/ketkikinkar">ketkikinkar</a></p>
-        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=vpmCbCQAAAAJ&hl=en">View Publications</a></p>
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#achievements">Achievements</a>
+        </div>
+        <div class="hero">
+            <img src="path_to_your_photo.jpg" alt="Ketki Kinkar">
+            <h1>Ketki Kinkar</h1>
+            <p>Data Scientist | Deep Learning Expert</p>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Master of Science in Applied Data Science from the University of Southern California with extensive experience in data science and engineering, specializing in deep learning and computer vision.</p>
-    </section>
-    <section>
-        <h2>Tech Stack</h2>
-        <ul>
-            <li>Programming: Python, R, C++, C</li>
-            <li>Machine Learning: Scikit-Learn, TensorFlow, Pandas, NumPy</li>
-            <li>Web Development: HTML, CSS, JavaScript, Django, Flask</li>
-            <li>Databases: MySQL, MongoDB, Firebase</li>
-            <li>Cloud & DevOps: AWS, GCP</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <div>
-            <h3>Data Science Intern at Softsensor.ai</h3>
-            <p>Developed a cancer detection system with 84.8% accuracy using MaskRCNN.</p>
-        </div>
-        <div>
-            <h3>Research Assistant at USC</h3>
-            <p>Working on a multimodal model for breast cancer detection.</p>
-        </div>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <div>
-            <h3>Financial News Research Tool</h3>
-            <p>Developed using OpenAI’s LLM API, achieving a rapid response time.</p>
-        </div>
-    </section>
-    <section>
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="https://scholar.google.com/citations?user=vpmCbCQAAAAJ&hl=en">The Perceived Impact of Correlative Relationship</a></li>
-        </ul>
-    </section>
-    <section>
-        <h2>Achievements</h2>
-        <ul>
-            <li>Best Research Paper Award, IJARSCT, Sept’21.</li>
-        </ul>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Master of Science in Applied Data Science from the University of Southern California...</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>Data Science Intern at Softsensor.ai</h3>
+                <p>Developed a cancer detection system with 84.8% accuracy using MaskRCNN.</p>
+            </article>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Financial News Research Tool</h3>
+                <p>Developed using OpenAI’s LLM API, achieving a rapid response time.</p>
+            </article>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="link_to_publication">Title of Publication</a></li>
+            </ul>
+        </section>
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Best Research Paper Award, IJARSCT, Sept’21</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me at <a href="mailto:ketki.kinkar2000@gmail.com">ketki.kinkar2000@gmail.com</a></p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
